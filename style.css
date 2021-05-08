@@ -1,0 +1,27 @@
+html {
+    background-color: black;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-item {
+    color:black;
+    font-weight: bold;
+}
+
+#btn {
+    background-color: white;
+    color: black;
+    transition: .1s linear;
+}
+
+#btn:hover {
+    background-color: lightgray;
+    transition: .1s linear;
+}
+
+
+
+

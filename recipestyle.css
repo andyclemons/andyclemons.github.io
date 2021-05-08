@@ -1,0 +1,139 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-item {
+    color: grey;
+    font-weight: bold;
+}
+
+html {
+    background-color: black;
+}
+
+button {
+    background: white;
+    color:black;
+    border: none;
+    outline: none;
+    padding: 15px 29px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  min-height: 100vh;
+}
+
+img {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+p { 
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+h3 {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+h4 {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+h5 {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+li {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+ul{
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+.meal {
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

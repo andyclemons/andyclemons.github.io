@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>PONG</title>
+    </head>
+    <body>
+        
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class="navbar-item">PONG</p>
+            </div>
+
+            <div id="navt" class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a href="recipe.html" id="btn" class="button is-primary"> Click here for recipes!</a>
+                            <a href="joke.html" id="btn" class="button is-light"> 
+                                <strong>Click here for jokes!</strong>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <canvas id="pong" width="600" height="400"></canvas>
+   
+        
+        <script src="pong/pong.js"></script>
+    </body>
+</html>
